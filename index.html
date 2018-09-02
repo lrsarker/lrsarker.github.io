@@ -17,7 +17,7 @@
   <body>
   <header> 
 	<div class="container">
-		<d iv class="row no-gutters">
+		<div class="row no-gutters">
 			<div class="col-lg-4 col-md-4 img-size">
 				<img src="imgs/profile_pic.jpg" alt="profile pic" />
 		    </div>
@@ -59,12 +59,9 @@
 					
 				</div>	
 		    </div>
-			
-	      </div>
 	    </div>
 	</div>
   </header>
-    
 	<div class="container"> 
 		<div class="collapse" id="home"> 
 			<div class="p-5 text-white bg-success"> 
@@ -258,11 +255,12 @@ challenging opportunities with sincerity, punctuality commitment, self-competenc
 	
 	<div class="container"> 
 		<footer class="p-5 bg-dark text-center"> 
-			<a href="https://archive.org/download/lrsarker/Lutfur_Rahman_Sarker.pdf" target="_blank" style="text-decoration:none; color:#ffffff; cursor:pointer;">
-			<button class="btn"> 
-			<i class="fa fa-download fa-2x"></i>Download CV
+			<button class="btn">
+				<a href="https://archive.org/download/lrsarker/Lutfur_Rahman_Sarker.pdf" target="_blank" style="text-decoration:none; color:#ffffff; cursor:pointer;">
+					<i class="fa fa-download fa-2x"></i>Download CV
+				</a>
 			</button>
-			</a>
+			
 			
 		</footer>
 	</div>
@@ -270,7 +268,7 @@ challenging opportunities with sincerity, punctuality commitment, self-competenc
 	<script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script type="text/javascript"> 
+  <script> 
 	$('.font-div').click(function()
 	{
 		$('.collapse').collapse('hide');
