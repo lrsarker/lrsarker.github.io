@@ -1,0 +1,29 @@
+/*
+
+Template: Profyl - My Resume /Lutfur Rahman Sarker/
+Author: lr.Sarker
+Version: 1.0
+Design and Developed by: lr.sarker
+
+
+*/
+
+
+.bg-black{
+	background-color: black;
+}
+
+.font-div{
+	width:30%;
+}
+img{
+width:100%;
+height:100%;
+}
+/*
+///// Responsive/////*/
+@media only screen and (min-width: 1200px){
+	.font-div{
+padding: 36px 0px! important;
+}
+}
